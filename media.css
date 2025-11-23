@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 899px) {
+    .navegation {
+        justify-content: space-between;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 5vw 0;
+
+    }
+
+    .about {
+        padding-left: 1rem;
+    }
+
+    .about-film h1 {
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+
+    .description {
+        line-height: 1;
+    }
+
+    .watch-button,
+    .watch-trailer {
+        padding: 14px 32px 14px 32px;
+    }
+
+    .buttons{
+        flex-direction: column;
+    }
+
+    .no-face-img{
+        margin-right: 6rem;
+    }
+}
+

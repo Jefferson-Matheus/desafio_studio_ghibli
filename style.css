@@ -63,7 +63,6 @@ main{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 25vw;
     font-family: "Andada Pro", serif;
     margin-top: 0.3rem;
 }
@@ -98,6 +97,10 @@ main{
     background: none;
     color: var(--text-light);
     border: 1px solid var(--primary-color);
+}
+
+.watch-button{
+    background-color: var(--primary-color);
 }
 
 .no-face-img{
