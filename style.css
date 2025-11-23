@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+    --primary-color: #F1A5B1;
+    --secondary-color: #0B0A0A;
+    --text-light: #fff;
+
+    --primary-font: "Archivo", sans-serif;
+    --secondary-font: "Andada Pro", serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/assets/imgs/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--primary-font);
+    color: var(--text-light);
+    min-height: 100vh;
+}
+
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+
+.social-media-list{
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+}
+
+
+.about{
+    margin-left: 18%;
+    margin-top: 6%;
+}
+
+.about-film{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    width: 25vw;
+    font-family: "Andada Pro", serif;
+    margin-top: 5px;
+}
+
+.title{
+    width: 65%;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.watch-button{
+    background-color:#F1A5B1;
+    color: #0B0A0A;
+    width: 15vw;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.watch-treiler{
+    background: none;
+    color: #fff;
+    width: 15vw;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #F1A5B1;
+    cursor: pointer;
+}
+
+.no-face-img{
+    margin-top: 6%;
+    width: 40vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.no-face-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
