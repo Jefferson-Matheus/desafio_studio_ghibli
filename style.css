@@ -37,7 +37,14 @@ body{
 .social-media-list{
     list-style: none;
     display: flex;
-    gap: 0.5em;
+    gap: 0.8em;
+}
+
+.media-item{
+    background-color: #AFAFAF;
+    border: 1px solid var(--text-light);
+    border-radius: 50%;
+    padding: 0.2rem;
 }
 
 
