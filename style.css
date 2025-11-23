@@ -47,47 +47,57 @@ body{
     padding: 0.2rem;
 }
 
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3rem 5vw 0;
+}
 
 .about{
-    margin-left: 18%;
-    margin-top: 6%;
+    flex-grow: 1; 
+    max-width: 450px;
 }
 
 .about-film{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    color: #fff;
+    gap: 1rem;
     width: 25vw;
     font-family: "Andada Pro", serif;
-    margin-top: 5px;
+    margin-top: 0.3rem;
 }
 
-.title{
-    width: 65%;
+.about-film h1{
+    font-size: 3rem;
+    line-height: 1.1;
 }
+
+.description{
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
 
 .buttons{
     display: flex;
-    gap: 15px;
+    gap: 1rem;
 }
-.watch-button{
-    background-color:#F1A5B1;
-    color: #0B0A0A;
-    width: 15vw;
-    padding: 8px;
-    border-radius: 5px;
-    cursor: pointer;
+.watch-button,
+.watch-trailer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 7px 16px 7px 16px;
+    gap: 0.5rem;
 }
 
-.watch-treiler{
+.watch-trailer{
     background: none;
-    color: #fff;
-    width: 15vw;
-    padding: 8px;
-    border-radius: 5px;
-    border: 2px solid #F1A5B1;
-    cursor: pointer;
+    color: var(--text-light);
+    border: 1px solid var(--primary-color);
 }
 
 .no-face-img{
