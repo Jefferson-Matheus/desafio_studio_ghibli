@@ -49,14 +49,14 @@ body{
 
 main{
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    justify-content: space-around;
     padding: 3rem 5vw 0;
 }
 
 .about{
     flex-grow: 1; 
     max-width: 450px;
+    padding-left: 8rem;
 }
 
 .about-film{
@@ -101,10 +101,13 @@ main{
 }
 
 .no-face-img{
-    margin-top: 6%;
-    width: 40vw;
+    margin-top: 0;
+    width: 40%;
+    max-width: 500px;
     height: 70vh;
     overflow: hidden;
+    margin-right: 8rem;
+    margin-top: -50px;
 }
 
 .no-face-img img{
